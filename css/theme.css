@@ -1,0 +1,37 @@
+body {
+	background: #7d7e7d; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.container-fluid {
+	display: flex;
+	justify-content: center;
+}
+
+.form{
+	background: #ffffff none repeat scroll 0 0;
+	border-radius: 2px;
+	width: 50%;
+	padding: 50px 70px 70px 71px;
+	
+}
+
+.form-control:focus {
+    border-color: grey;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px grey;
+}
+
+label {
+	font-weight: 600;	
+}
+
+#send {
+	font-weight: bold;		
+}
+
+.red {
+	color: red;	
+}
